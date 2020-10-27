@@ -1,14 +1,28 @@
 .carrito
     width: 70%
     margin: auto
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+    -ms-flex-wrap: wrap
     flex-wrap: wrap
 
 .item
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
     width: 280px
     height: 150px
@@ -35,16 +49,31 @@
             background-color: #005783
     .botonesItem
         width: 100%
+        display: -webkit-box
+        display: -ms-flexbox
         display: flex
+        -webkit-box-pack: center
+        -ms-flex-pack: center
         justify-content: center
+        -webkit-box-align: center
+        -ms-flex-align: center
         align-items: center
 
 .total
     width: 70%
     margin: 20px auto 50px auto
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
+    -webkit-box-orient: horizontal
+    -webkit-box-direction: reverse
+    -ms-flex-direction: row-reverse
     flex-direction: row-reverse
     font-size: 25px
     font-weight: bold
@@ -55,9 +84,18 @@
     width: 100%
     padding-top: 30px
     background: #e2e2e2
+    display: -webkit-box
+    display: -ms-flexbox
     display: flex
+    -webkit-box-pack: center
+    -ms-flex-pack: center
     justify-content: center
+    -webkit-box-align: center
+    -ms-flex-align: center
     align-items: center
+    -webkit-box-orient: vertical
+    -webkit-box-direction: normal
+    -ms-flex-direction: column
     flex-direction: column
 
 .botonComprar,
@@ -74,6 +112,8 @@
     color: #fff
     border: none
     border-radius: 3px
+    -webkit-transition: .3s all ease
+    -o-transition: .3s all ease
     transition: .3s all ease
     font-family: "Oswald", sans-serif
     font-size: 16px
