@@ -478,6 +478,14 @@ h2 {
   }
 }
 @media screen and (max-width: 750px) {
+  .menu .contenedor-img img {
+    margin-left: 0;
+  }
+
+  .menu ul a {
+    padding: 0;
+  }
+
   .contenedor .contenedor__compra .contenedor__listado .nuevaLista img {
     margin-right: 50px;
   }
